@@ -1,0 +1,52 @@
+{
+  "rain": {},
+  "heavy_dust": {},
+  "splatter": {},
+  "smoke": {},
+  "streak": {},
+  "mist": {},
+  "shrub": {},
+  "snow_haze": {},
+  "new_particle": {
+    "presetParticleId": "minecraft:flame",
+    "usePresetParticle": false,
+    "enabled": true,
+    "density": 1.0,
+    "weather": "DURING_WEATHER",
+    "precipitation": [
+      "RAIN"
+    ],
+    "biomeList": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "blockList": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "needsSkyAccess": true,
+    "spawnPos": "SKY",
+    "gravity": 0.1,
+    "windStrength": 0.1,
+    "stormWindStrength": 0.5,
+    "rotationAmount": 0.0,
+    "bounciness": 0.0,
+    "lifetime": 3000,
+    "opacity": 1.0,
+    "size": 0.5,
+    "constantScreenSize": false,
+    "renderType": "TRANSLUCENT",
+    "spriteLocations": [
+      "particlerain:new_custom_particle"
+    ],
+    "tintType": "NONE",
+    "customTint": "#000000",
+    "rotationType": "COPY_CAMERA"
+  },
+  "mist_after_rain": {},
+  "ripple": {},
+  "rain_haze": {},
+  "snow": {},
+  "dust": {},
+  "dust_haze": {}
+}
